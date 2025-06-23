@@ -162,7 +162,6 @@ This Next.js app can be deployed to any platform that supports Node.js:
 2. **401 Unauthorized when starting session**
 
    - Verify your Outspeed API key is correct
-   - Check if your API key has the necessary permissions
 
 3. **Weather tool not working**
    - Add your OpenWeatherMap API key to `.env`
@@ -171,7 +170,3 @@ This Next.js app can be deployed to any platform that supports Node.js:
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is open source and available under the [MIT License](https://opensource.org/license/mit).
