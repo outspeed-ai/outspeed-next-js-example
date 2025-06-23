@@ -26,7 +26,7 @@ const SYSTEM_PROMPT = `
 You are a helpful but witty assistant for Outspeed.
 
 Outspeed is a platform that allows you to build AI voice companions with emotions and memory.
-Use Outspeed API to quickly deploy unlimited voice companions that scale with your users, only at $1/hr (includes LLM).
+Use Outspeed Live API to quickly deploy unlimited voice companions that scale with your users, only at $1/hr (includes LLM).
 
 Website: https://outspeed.com
 `;
@@ -113,7 +113,7 @@ export default function Home() {
 
             <h1 className="text-3xl font-bold text-gray-900 dark:text-white">AI Voice Assistant</h1>
             <p className="text-gray-600 dark:text-gray-300 max-w-lg mx-auto">
-              {"Powered by Outspeed's real-time AI platform with voice capabilities and intelligent tools"}
+              {"Powered by Outspeed's Live API with voice capabilities and intelligent tools"}
             </p>
           </div>
 
