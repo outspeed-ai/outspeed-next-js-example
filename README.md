@@ -21,8 +21,8 @@ A modern AI voice assistant built with Next.js and powered by Outspeed's Live AP
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/outspeed-ai/outspeed-next-js.git
-cd outspeed-next-js
+git clone https://github.com/outspeed-ai/outspeed-next-js-example.git
+cd outspeed-next-js-example
 ```
 
 ### 2. Install dependencies
@@ -94,7 +94,7 @@ Navigate to [http://localhost:3000](http://localhost:3000) to see the applicatio
 ## Project Structure
 
 ```
-outspeed-next-js/
+outspeed-next-js-example/
 ├── app/
 │   ├── api/
 │   │   └── token/
@@ -128,7 +128,7 @@ outspeed-next-js/
 
 The easiest way to deploy is using the Vercel Platform:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Foutspeed-ai%2Foutspeed-next-js)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Foutspeed-ai%2Foutspeed-next-js-example)
 
 **Remember to add your environment variables in your Vercel project settings:**
 

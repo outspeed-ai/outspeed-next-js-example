@@ -94,7 +94,7 @@ export default function Home() {
       {/* Deploy Button - Fixed Top Right */}
       <div className="fixed top-4 right-4 z-10">
         <a
-          href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Foutspeed-ai%2Foutspeed-next-js"
+          href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Foutspeed-ai%2Foutspeed-next-js-example"
           target="_blank"
         >
           <img src="https://vercel.com/button" alt="Deploy with Vercel" />
