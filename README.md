@@ -1,10 +1,10 @@
 # Outspeed AI Voice Assistant
 
-A modern AI voice assistant built with Next.js and powered by Outspeed's real-time AI platform. This application demonstrates how to integrate voice capabilities, client-side tools, and system tools into a seamless conversational experience.
+A modern AI voice assistant built with Next.js and powered by Outspeed's Live API. This application demonstrates how to integrate voice capabilities, client-side tools, and system tools into a seamless conversational experience.
 
 ## Features
 
-- 🎤 **Real-time Voice Conversation** - Speak directly with the AI assistant
+- 🎤 **Realtime Voice Conversation** - Speak directly with the AI assistant
 - 🛠️ **Client Tools** - Weather API integration and browser tab management
 - ⚙️ **System Tools** - Backend-managed call termination
 - 🎨 **Modern UI** - Clean, responsive design with dark mode support
@@ -174,4 +174,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](https://opensource.org/license/mit).
