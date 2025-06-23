@@ -82,14 +82,14 @@ Navigate to [http://localhost:3000](http://localhost:3000) to see the applicatio
 1. Visit [dashboard.outspeed.com](https://dashboard.outspeed.com)
 2. Create an account or log in
 3. Generate a new API key
-4. Add it to your `.env.local` file as `OUTSPEED_API_KEY`
+4. Add it to your `.env` file as `OUTSPEED_API_KEY`
 
 ### OpenWeatherMap API Key (Optional)
 
 1. Visit [openweathermap.org](https://openweathermap.org/api)
 2. Create a free account
 3. Generate an API key
-4. Add it to your `.env.local` file as `NEXT_PUBLIC_OPEN_WEATHER_MAP_API_KEY`
+4. Add it to your `.env` file as `NEXT_PUBLIC_OPEN_WEATHER_MAP_API_KEY`
 
 ## Project Structure
 
@@ -107,7 +107,7 @@ outspeed-next-js/
 │   ├── layout.tsx                # Root layout
 │   └── page.tsx                  # Main application page
 ├── public/                       # Static assets
-├── .env.local                    # Environment variables (create this)
+├── .env                    # Environment variables (create this)
 └── README.md                     # This file
 ```
 
@@ -156,7 +156,7 @@ This Next.js app can be deployed to any platform that supports Node.js:
 
 1. **"OUTSPEED_API_KEY is required" error**
 
-   - Make sure you've created `.env.local` with your API key
+   - Make sure you've created `.env` with your API key
    - Restart your development server after adding the key
 
 2. **401 Unauthorized when starting session**
@@ -165,7 +165,7 @@ This Next.js app can be deployed to any platform that supports Node.js:
    - Check if your API key has the necessary permissions
 
 3. **Weather tool not working**
-   - Add your OpenWeatherMap API key to `.env.local`
+   - Add your OpenWeatherMap API key to `.env`
    - The weather tool is optional and won't break the app if missing
 
 ## Contributing
